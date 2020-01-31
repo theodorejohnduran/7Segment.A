@@ -114,4 +114,14 @@
         labelF.Visible = True
         labelG.Visible = True
     End Sub
+
+    Private Sub btnZero_Click(sender As Object, e As EventArgs) Handles btnZero.Click
+        labelA.Visible = True
+        labelB.Visible = True
+        labelC.Visible = True
+        labelD.Visible = True
+        labelE.Visible = True
+        labelF.Visible = True
+        labelG.Visible = False
+    End Sub
 End Class

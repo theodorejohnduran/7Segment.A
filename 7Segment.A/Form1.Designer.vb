@@ -40,6 +40,7 @@ Partial Class Form1
         Me.btnEight = New System.Windows.Forms.Button()
         Me.btnNine = New System.Windows.Forms.Button()
         Me.btnReset = New System.Windows.Forms.Button()
+        Me.btnZero = New System.Windows.Forms.Button()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -198,11 +199,21 @@ Partial Class Form1
         Me.btnReset.Text = "Reset"
         Me.btnReset.UseVisualStyleBackColor = True
         '
+        'btnZero
+        '
+        Me.btnZero.Location = New System.Drawing.Point(43, 322)
+        Me.btnZero.Name = "btnZero"
+        Me.btnZero.Size = New System.Drawing.Size(75, 23)
+        Me.btnZero.TabIndex = 18
+        Me.btnZero.Text = "0"
+        Me.btnZero.UseVisualStyleBackColor = True
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(838, 567)
+        Me.Controls.Add(Me.btnZero)
         Me.Controls.Add(Me.btnReset)
         Me.Controls.Add(Me.btnNine)
         Me.Controls.Add(Me.btnEight)
@@ -246,4 +257,5 @@ Partial Class Form1
     Friend WithEvents btnEight As Button
     Friend WithEvents btnNine As Button
     Friend WithEvents btnReset As Button
+    Friend WithEvents btnZero As Button
 End Class
